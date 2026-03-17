@@ -1,18 +1,14 @@
 class LocationService {
-  /// Gets the current position of the device, ensuring that
-  /// location services are enabled and permissions are granted.
-  _getCurrentPosition() {
+  /// Gets the current city name based on the user's location.
+  String getCurrentCity() {
     // Check location services.
 
     // Check permissions.
 
     // Get current position.
 
-    throw UnimplementedError('_getCurrentPosition is not implemented yet.');
-  }
+    // Reverse geocode to get city name.
 
-  /// Returns the current city name (e.g. "Kyiv") based on device location.
-  String getCurrentCity() {
     throw UnimplementedError('getCurrentCity is not implemented yet.');
   }
 }
